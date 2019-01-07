@@ -18,7 +18,7 @@ public class Exhibitor_Block extends BrowserFactory{
 	@Test
 	public void Exhibitor_Flow() throws Throwable {
 			
-		Login.login(driver);
+//		Login.login(driver);
 		wait = new WebDriverWait(driver, 60);
 		xls = new XlsUtil(config.getsswexcelpath());
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
